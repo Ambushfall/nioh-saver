@@ -1,5 +1,8 @@
 # Nioh Save Transfer Tool
 
+NOTE: THIS DOES NOT HANDLE ANY OTHER SAVE NUMBERINGS
+
+
 A Python-powered utility to bridge the gap between **Epic Games Store** and **Steam** versions of Nioh. This tool automates the decryption, hex manipulation, and ID re-signing required to make save files cross-compatible.
 
 _There's also a C++ Release created for the sole purpose of having a single runtime binary, knock yourself out_

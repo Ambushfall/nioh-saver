@@ -1,2 +1,4 @@
 *.exe
 *.bin
+*.cpp
+*.obj

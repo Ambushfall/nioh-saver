@@ -2,6 +2,8 @@
 
 A Python-powered utility to bridge the gap between **Epic Games Store** and **Steam** versions of Nioh. This tool automates the decryption, hex manipulation, and ID re-signing required to make save files cross-compatible.
 
+_There's also a C++ Release created for the sole purpose of having a single runtime binary, knock yourself out_
+
 ## Features
 - **Auto-Detection:** Automatically locates your Nioh save directories for both Steam and Epic.
 - **Epic to Steam:** Re-signs Epic saves with your Steam3ID and recalculates integrity.

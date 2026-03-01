@@ -152,7 +152,7 @@ void process_save(const std::string& mode) {
         if (fs::exists(filename)) {
             fs::rename(filename, copyfrom);
             std::cout << "move " << filename << " to " << copyfrom.string() << std::endl;
-            std::cout << "Transfer complete!" << std::endl;
+            std::cout << "Epic to Steam: Transfer complete!" << std::endl;
         } else {
             std::cout << "Error: Decrypted file " << filename << " not found." << std::endl;
         }
@@ -189,7 +189,7 @@ void process_save(const std::string& mode) {
         if (fs::exists(filename)) {
             fs::rename(filename, copyfrom);
             std::cout << "move " << filename << " to " << copyfrom.string() << std::endl;
-            std::cout << "mode == 2 Transfer complete!" << std::endl;
+            std::cout << "Steam to Epic: Transfer complete!" << std::endl;
         } else {
             std::cout << "Error: Processed file " << filename << " not found." << std::endl;
         }

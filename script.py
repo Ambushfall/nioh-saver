@@ -90,7 +90,7 @@ def process_save(mode):
         run_decryptor(["-cs", "-i", input_file, "-sid", sid, "-o", filename])
 
         # 3. Move to steam
-        # shutil.move(filename, copyfrom)
+        shutil.move(filename, copyfrom)
         print(f"move {filename} to {copyfrom}")
         print("Transfer complete!")
 
@@ -121,7 +121,7 @@ def process_save(mode):
             f.write(bytes.fromhex("0B3BCD78"))
         
         # 4. Move to Epic save dir
-        # shutil.move(filename, copyfrom)
+        shutil.move(filename, copyfrom)
         print(f"move {filename} to {copyfrom}")
         print("mode == 2 Transfer complete!")
 
